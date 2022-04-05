@@ -2,7 +2,7 @@ import mysql.connector as cnt
 import tkinter
 from PIL import Image, ImageTk
 #database
-ct=cnt.connect(user="root",host='localhost',password='admin123',database='blackpink')
+ct=cnt.connect(user="root",host='localhost',password='yourpassword',database='blackpink')
 cus=ct.cursor()
 #gui
 root=tkinter.Tk()
